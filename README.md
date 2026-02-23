@@ -49,7 +49,7 @@ pip install -r requirements.txt
 Use `CSFM` directly as a feature extractor to generate meaningful representations from raw biosignals.
 
 ### 🔹 Download the Pretrained Model Weights
-Download the pretrained weights from the provided shared link (currently only available to a limited group). 
+Download the pretrained weights from the provided shared link (currently only available to a limited group, please contact xiao.gu@eng.ox.ac.uk for access). 
 
 ### 🔹 Load the Pretrained Model
 
@@ -133,8 +133,10 @@ The tutorial covers:
 If you use **Cardiac Sensing FM (CSFM)** in your research or applications, please cite:
 
 ```bibtex
-@article{gu2025sensing,
-  title={Sensing Cardiac Health Across Scenarios and Devices: A Multi-Modal Foundation Model Pretrained on Heterogeneous Data from 1.7 Million Individuals},
-  author={Gu, Xiao and Tang, Wei and Han, Jinpei and Sangha, Veer and Liu, Fenglin and Gowda, Shreyank N and Ribeiro, Antonio H and Schwab, Patrick and Branson, Kim and Clifton, Lei and Ribeiro, Antonio Luiz P and Liu, Zhangdaihong and Clifton, David A},
-  year={2025}
+@article{gu2026cardiac,
+  title={Cardiac health assessment across scenarios and devices using a multi-modal foundation model pretrained on data from 1.7 million individuals},
+  author={Gu, Xiao and Tang, Wei and Han, Jinpei and Sangha, Veer and Liu, Fenglin and Gowda, Shreyank N and Ribeiro, Antonio H and Schwab, Patrick and Branson, Kim and Clifton, Lei and others},  journal={Nature Machine Intelligence},
+  year={2026},
+  publisher={Springer Nature}
 }
+```
