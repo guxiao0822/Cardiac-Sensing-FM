@@ -49,7 +49,14 @@ pip install -r requirements.txt
 Use `CSFM` directly as a feature extractor to generate meaningful representations from raw biosignals.
 
 ### 🔹 Download the Pretrained Model Weights
-Download the pretrained weights from the provided shared link (currently only available to a limited group, please contact xiao.gu@eng.ox.ac.uk for access). 
+Download the pretrained weights from the provided shared link 
+
+> The CSFM pretrained weights are available to academic researchers under a signed Academic Access Agreement.
+>
+> To request access, please email **xiao.gu@eng.ox.ac.uk** from your institutional email address with the required subject line:
+>
+> **CSFM Weights Request – [Full Name] – [Institution]**
+>
 
 ### 🔹 Load the Pretrained Model
 
@@ -78,7 +85,7 @@ model.load_state_dict(encoder_state_dict, strict=False)
 To extract features, you need to provide:
 1. A **preprocessed biosignal** (e.g., Any-channel ECG and/or PPG), formatted as a NumPy array, shape : `[channels, time]`  
 2. The **input channels**, which specify the type of signal:
-   - `0–11`: Standard 12-lead ECG
+   - `0–11`: Standard 12-lead ECG {I, II, III, AVR, AVL, AVF, V1, V2, V3, V4, V5, V6}
    - `12`: PPG
    - Wearable ECG treated as lead II, i.e., use channel = `1`
 
@@ -134,9 +141,13 @@ If you use **Cardiac Sensing FM (CSFM)** in your research or applications, pleas
 
 ```bibtex
 @article{gu2026cardiac,
-  title={Cardiac health assessment across scenarios and devices using a multi-modal foundation model pretrained on data from 1.7 million individuals},
-  author={Gu, Xiao and Tang, Wei and Han, Jinpei and Sangha, Veer and Liu, Fenglin and Gowda, Shreyank N and Ribeiro, Antonio H and Schwab, Patrick and Branson, Kim and Clifton, Lei and others},  journal={Nature Machine Intelligence},
+  title={Cardiac health assessment across scenarios and devices using a multimodal foundation model pretrained on data from 1.7 million individuals},
+  author={Gu, Xiao and Tang, Wei and Han, Jinpei and Sangha, Veer and Liu, Fenglin and Gowda, Shreyank N and Ribeiro, Antonio H and Schwab, Patrick and Branson, Kim and Clifton, Lei and others},
+  journal={Nature Machine Intelligence},
+  volume={8},
+  number={2},
+  pages={220--233},
   year={2026},
-  publisher={Springer Nature}
+  publisher={Nature Publishing Group}
 }
 ```
