@@ -53,7 +53,7 @@ Download the pretrained weights from the provided shared link
 
 > The CSFM pretrained weights are available to academic researchers under a signed Academic Access Agreement.
 >
-> To request access, please email **xiao.gu@eng.ox.ac.uk** from your institutional email address with the required subject line:
+> To request access, please email **xiao.gu@eng.ox.ac.uk** from your institutional email address using the following subject line exactly. Emails with a different subject line or in a different language may be missed, and there is no need to include any additional content in the email:
 >
 > **CSFM Weights Request – [Full Name] – [Institution]**
 >
